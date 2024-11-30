@@ -3,6 +3,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 main{
@@ -12,10 +13,13 @@ main{
 }
 
 .when{
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
-    margin: 1%;
+    padding: 10px;
     margin-bottom: 3%;
+    color: darkgoldenrod;
+    background-color: #041c31;
+    
 }
 .container{
     display: flex;
@@ -30,6 +34,7 @@ main{
 }
 .nameofdate{
     font-size: 2rem;
+    color: darkgoldenrod
 }
 .add-event-form input, .add-event-form button {
     padding: 10px;
@@ -48,8 +53,10 @@ main{
 
     main{
         grid-template-columns: 1fr;
+        margin: auto;
     }
     .phone{
         flex-direction: column;
+        margin: auto;
     }
 }
