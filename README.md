@@ -1,2 +1,2 @@
 # Stupid ass countdown for anything u need
-https://ubejtemena.github.io/countdownw/
+https://ubejtemena.github.io/countdown/
