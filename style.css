@@ -43,3 +43,13 @@ main{
     color: white;
     cursor: pointer;
 }
+
+@media (max-width: 1024px){
+
+    main{
+        grid-template-columns: 1fr;
+    }
+    .phone{
+        flex-direction: column;
+    }
+}
