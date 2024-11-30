@@ -13,7 +13,7 @@ function saveEvents() {
 }
 function renderEvent(event) {
     const eventsContainer = document.getElementById("events-container");
-    const newEventHtml = `
+    const newEventHtml = ` 
         <div class="container">
             <div class="nameofdate"><span>${event.name}</span></div>
             <div class="countdown" id="${event.id}">
