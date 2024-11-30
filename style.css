@@ -1,0 +1,45 @@
+body{
+    background-color: darkslategrey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 70%;
+}
+
+.when{
+    font-size: 2rem;
+    text-align: center;
+    margin: 1%;
+    margin-bottom: 3%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+
+}
+.countdown{
+    font-size: 1.2rem;
+    padding: 15px;
+}
+.nameofdate{
+    font-size: 2rem;
+}
+.add-event-form input, .add-event-form button {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+.add-event-form button {
+    background-color: #041c31;
+    color: white;
+    cursor: pointer;
+}
